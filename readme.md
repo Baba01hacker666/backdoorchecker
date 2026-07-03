@@ -11,5 +11,5 @@ This Bash script is designed to check whether web shells are still accessible (l
 ### Usage
 
 ```sh
-usage: bash backdoorchecker.sh list.txt
+usage: bash backdoorchecker.sh shell.txt
 ```
