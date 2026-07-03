@@ -1,4 +1,7 @@
 WSO.php
+alfa2.php
+Cmd.php
+shell.php
 dz.php
 mailer.php
 promailer.php
