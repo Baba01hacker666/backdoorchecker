@@ -28,7 +28,7 @@ check_shell() {
     
     [[ "$url" =~ ^https?:// ]] || url="http://$url"
     
-    response=$(curl -sL --max-redirs 5 --connect-timeout 10 --max-time 15 \
+    response=$(curl -sL --max-redirs 3 --connect-timeout 7 --max-time 15 \
         -A "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" \
         -w "\nHTTP_CODE:%{http_code}\nSIZE:%{size_download}\n" \
         "$url" 2>/dev/null)
